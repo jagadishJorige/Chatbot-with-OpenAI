@@ -12,8 +12,8 @@ import { map, delay } from 'rxjs';
 })
 export class AssistantComponent implements OnInit{
   visible: boolean = false;
-  orgKey: string = 'org-khPPQRxnIHTXUTR68hw6psUz';
-  authKey: string = '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';
+  orgKey: string = '**********';
+  authKey: string = '******************';
   chatUrl: string = 'https://api.openai.com/v1/chat/completions';
   messages: any[] = [];
   initAssistant: any;

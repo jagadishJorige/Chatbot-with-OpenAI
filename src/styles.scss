@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+.p-button .p-button-label {
+    font-size: small;
+}
+.customPadding .p-button {
+    padding: 8px;
+}
+.custom-scrolltop.p-scrolltop {
+    bottom: 0px;
+    width: 2rem;
+    height: 2rem;
+    .p-icon-wrapper {
+        scale: 1 !important;
+    }
+}
+
+.p-dialog-maximized .chat_container {
+    height: 525px !important;
+}
